@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 0;
+	font-family: arial,sans-serif;
+	background-color: #fff;
+}
+/*  header-section  */
+.header-content {
+	margin:4px 20px 0px 0px;
+}
+.header-content ul {
+    list-style: none;
+	text-align:right;
+}
+.header-content ul li {
+    display: inline-block;
+	font-size: 13px;
+	padding: 6px;
+	color: black;
+}
+.header-content ul li a{
+	text-decoration:none;
+	color: black;
+}
+.header-content ul li:hover a{
+	text-decoration:underline;
+}
+
+.header-content ul li img{
+	position: relative;
+	top: 7px;
+}
+.header-content ul li .sign-btn{
+	background:#4387fd;
+	border: 1px solid #4285f4;
+	border-radius: 3px;
+	color:#fff;
+	font-weight: bold;
+	padding: 6px 10px;
+	text-decoration: none;	
+}
+.header-content ul li .sign-btn:hover{
+	text-decoration: none;
+}
+
+/*  body-content-area */
+.main-area{
+	margin: 139px auto auto;
+	padding: 10px;
+	text-align: center;
+	width: 580px;
+}
+.google-img {
+    background: url(img/google_logo.png) no-repeat center center/292px 100px;
+    height: 110px;
+    width: 100%;
+}
+.google-img h4 {
+    position: relative;
+    top: 89px;
+    left: 123px;
+	color:#4285f4;
+}
+.search-form{
+	margin-top:18px;
+}
+.s-field{
+	padding: 10px;
+	width: 100%;
+	border: 1px solid #d9d9d9;
+	transition: .5s;
+}
+.img-btn{
+	border: medium none;
+	cursor: pointer;
+	left: 269px;
+	position: relative;
+	top: -28px;
+	width: 30px;
+}
+.img-btn img{
+	width:100%;
+	height:auto;
+}
+
+.bottom-btn{
+	background:
+	#f2f2f2 none repeat scroll 0 0;
+	color:
+	#757575;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 8px 16px;
+	text-align: center;
+	border: 1px solid
+		#f2f2f2;
+    margin-right: 4px;
+}
+.bottom-btn:hover{
+	background-color:#f8f8f8;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	color:#222;
+}
+.search-form p{
+	font-size: 13px;
+	margin-top: 25px;
+}
+.search-form span a{
+	text-decoration:none;
+}
+.search-form span:hover a{
+	text-decoration:underline;
+}
+
+/*  footer-area  */
+.footer-area{
+	background:#f2f2f2; 
+	border-top: 1px solid #e4e4e4;
+	height: 43px;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+}
+.left-menu{
+	float:left;
+	width:50%;
+}
+.left-menu ul{
+	margin-right: 12px;
+	padding: 0;
+	text-align: left;
+}
+.left-menu ul li{
+	display: inline-block;
+}
+.left-menu ul li a{
+	color: #666;
+	display: inline-block;
+	font-size: 14px;
+	padding: 12px;
+	text-decoration:none;
+}
+.left-menu ul li a:hover{}
+.right-menu{
+	float:right;
+	width:50%;
+}
+.right-menu ul{
+	margin-right: 12px;
+	padding: 0;
+	text-align: right;
+}
+.right-menu ul li{
+	display: inline-block;
+}
+.right-menu ul li a{
+	color: #666;
+	display: inline-block;
+	font-size: 14px;
+	padding: 12px;
+	text-decoration:none;
+}
+.right-menu ul li a:hover{}
